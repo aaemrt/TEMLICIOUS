@@ -1,6 +1,7 @@
 body {
     margin: 0px;
 }
+
 header {
     display: flex;
     top: 0;
@@ -21,11 +22,6 @@ nav a {
     font-family: "Aclonica";
     align-items: center;
 }
-nav a:hover{
-    background-color:#fa98a0 ;
-    box-shadow:0 0 5px #f5f2f3;
-    border-radius: 30px ; 
-}
 section.home {
     background: url(tampak\ depan.jpg);
     background-size: cover;
@@ -34,44 +30,44 @@ section.home {
     padding-top: 100px;
     height: 600px;
 }
+
 section.home div {
     text-align: center;
     color: white;
     margin: auto;
     width: 70%;
     padding-top: 80px;
-    font-family: "Caveat Brush";
-    font-size: 20px;
 }
+
 section.home .welcome {
-    font-size: 50px;
-    font-family: "Barrio";
+    font-size: 30px;
 }
+
 section.home a {
-    color:#fcb3b3 ;
-    font-size: 20px;
-    font-family: "Alegreya SC";
+    color: white;
     padding: 10px 20px;
     text-decoration: none;
     box-shadow: 0px 0px 3px;
-    border-radius: 30px;
+    border-radius: 20px;
 }
+
 section.about {
     background-color: #939fcf;
     height: 600px;
     padding-top: 100px;
 }
+
 section.about div {
-    color: #fafafa;
+    color: white;
     text-align: center;
-    font-family: "Cherry Cream Soda";
-    font-size: 15px;
     margin: auto;
     width: 70;
 }
+
 section.about img {
     height: 200px;
 }
+
 section.product {
     background: url(tampak\ dalam.jpg);
     background-size: cover;
@@ -79,12 +75,14 @@ section.product {
     background-attachment: fixed;
     height: 1080px;
 }
+
 section.product.container {
     justify-content: center;
     display: flex;
     flex-wrap: wrap;
     padding-top: 50px;
 }
+
 .card {
     background-color:#f7faff;
     text-align: center;
@@ -94,10 +92,6 @@ section.product.container {
     margin: 15px;
     font-size: small;
     font-family: "Amita";
-    border-radius:10px;
-}
-.card:hover{
-    box-shadow: 0 0 5px rgb(239, 95, 95);
 }
 .cardarea{
     align-content: center;
@@ -106,11 +100,12 @@ section.product.container {
     grid-template-columns: repeat(3,1fr);
     justify-items: center;
 }
+
 section.product.container.card img {
     width: 100%;
     padding-top: 10px;
-    border-radius: 20px;
 }
+
 section.product.container.card a {
     color: black;
     padding: 5px 20px;
@@ -118,36 +113,13 @@ section.product.container.card a {
     box-shadow: 0px 0px 3px;
     border-radius: 20px;
 }
+
 section.contact {
-    background-color: #f2f5ff;
+    background-color: #ebeefa;
     height: 600px;
-    padding-top: 150px;
-    text-align: center;
 }
-section.contact div {
-    color: #000000;
-    text-align: center;
-    font-family: "Darumadrop One";
-    font-size: 25px;
-    margin: auto;
-    width: 70;
-}
-section.contact img {
-    height: 250px;
-}
+
 footer {
-    background-color: #ffffff;
+    background-color: black;
     height: 50px;
-    text-align:center;
-    padding-top: 25px;
-    font-family: "Architects Daughter";
-}
-footer.medsos{
-    text-align:center;
-    padding-top:10px;
-}
-footer.medsos a{
-    color: #a83264;
-    font-size: 20px;
-    padding: 5px 20px;
 }

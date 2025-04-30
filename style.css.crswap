@@ -1,0 +1,38 @@
+body{
+    margin: 0px;
+}
+header{
+    display: flex;
+    top: 0;
+    width: 100%;
+    background-color:black;
+    justify-content: space-between;
+    position: fixed;
+    z-index: 1;
+    color: white;
+    padding: 10px;
+}
+nav a{
+    padding: 10px 25px;
+    text-decoration: none;
+    color: white;
+}
+section.home{
+    background: url();
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment:fixed;
+    height: 600px;
+}
+section.about{
+    background-color: black;
+    height: 600px
+}
+section.product{
+    background: url();
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    height: 600px;
+}
+section.contact

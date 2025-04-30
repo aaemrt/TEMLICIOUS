@@ -121,7 +121,7 @@ section.product.container.card a {
 section.contact {
     background-color: #f2f5ff;
     height: 600px;
-    padding-top: 150px;
+    padding-top: 100px;
     text-align: center;
 }
 section.contact div {

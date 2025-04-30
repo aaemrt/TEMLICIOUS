@@ -1,0 +1,45 @@
+body{
+    margin: 0px;
+}
+header{
+    display: flex;
+    top: 0;
+    width: 150;
+    background-color:#70242b;
+    justify-content: space-between;
+    position: fixed;
+    z-index: 1;
+    color: white;
+    padding: 10px;
+}
+nav a{
+    padding: 10px 25px;
+    text-decoration: none;
+    color: white;
+}
+section.home{
+    background: url(image.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment:fixed;
+    height: 600px;
+}
+section.about{
+    background-color:#ffdcd6;
+    height: 600px
+}
+section.product{
+    background: url();
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    height: 600px;
+}
+section.contact{
+    background-color: black;
+    height: 600px;
+}
+footer{
+    background-color: black;
+    height: 50px;
+}

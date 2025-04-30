@@ -64,8 +64,8 @@ section.about {
 section.about div {
     color: #fafafa;
     text-align: center;
-    font-family: "Cherry Cream Soda";
-    font-size: 15px;
+    font-family: "Annie Use Your Telescope";
+    font-size: 20px;
     margin: auto;
     width: 70;
 }
@@ -94,7 +94,6 @@ section.product.container {
     margin: 15px;
     font-size: small;
     font-family: "Amita";
-    border-radius:10px;
 }
 .card:hover{
     box-shadow: 0 0 5px rgb(239, 95, 95);
@@ -109,7 +108,6 @@ section.product.container {
 section.product.container.card img {
     width: 100%;
     padding-top: 10px;
-    border-radius: 20px;
 }
 section.product.container.card a {
     color: black;
@@ -119,21 +117,22 @@ section.product.container.card a {
     border-radius: 20px;
 }
 section.contact {
-    background-color: #f2f5ff;
+    background-color: #ebeefa;
     height: 600px;
-    padding-top: 150px;
-    text-align: center;
+    align-items: center;
+    text-align:center;
 }
-section.contact div {
-    color: #000000;
-    text-align: center;
-    font-family: "Darumadrop One";
-    font-size: 25px;
-    margin: auto;
-    width: 70;
+
+section.contact.card{
+    margin:auto;
+    background-color:#a83264;
+    text-align:center;
+    padding-top:100px;
+    width:200px;
+    height:200px;
 }
-section.contact img {
-    height: 250px;
+section.contact.card img{
+    width:200px;
 }
 footer {
     background-color: #ffffff;
